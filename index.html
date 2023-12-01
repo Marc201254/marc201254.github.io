@@ -46,8 +46,15 @@
             margin: 0;
             padding: 0; 	
         }
-</head>
+
     </style>
+    </head>
+    <script>
+    function downloadCV() {
+    var cvLink = "https://drive.google.com/file/d/1k0TIvr_y7K-6Re064wijP7pYKbVnD3y7/view?usp=drive_link";
+    window.open(cvLink, '_blank');
+  }
+</script>
 	  <center><img src="https://static.vecteezy.com/ti/vecteur-libre/p2/334460-logo-de-cafe-vectoriel.jpg"
             height="150px" width="150px"><center>
         <center><h1 style="color : yellow">Welcome to Our CLNC Coffee Shop</h1><center>
@@ -100,6 +107,9 @@
 			 height="100px" width="100px"
         </ul>
     </div>
-	   <marquee style = "color : white" class="marquee" direction="right" behavior="alternate" scrollamount="10">MAG KAKAPERA NAG BABASA NITO!!!!</marquee>
+    <button class="btn CV" onclick="downloadCV()">
+                Check my resume&nbsp;<span><i class="fas fa-arrow-circle-down"></i></span>
+              </button>
+        <marquee style = "color : white" class="marquee" direction="right" behavior="alternate" scrollamount="10">MAG KAKAPERA NAG BABASA NITO!!!!</marquee>
 </body>
 </html>
